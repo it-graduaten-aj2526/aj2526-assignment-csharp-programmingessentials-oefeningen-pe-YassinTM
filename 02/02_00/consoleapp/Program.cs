@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int getal;
+Console.Write("Geef een getal in: ");
+getal = int.Parse(Console.ReadLine());
+
+if (getal >= 0) {
+    Console.WriteLine("Positief");
+}
+else
+{
+       Console.WriteLine("Negatief");
+};
