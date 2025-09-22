@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int getal;
+
+Console.Write("Geef een getal: ");
+getal = int.Parse(Console.ReadLine());
+
+if ((getal % 5 == 0) && (getal % 11 == 0))
+{
+    Console.WriteLine("Deelbaar");
+}
+else
+{ 
+    Console.WriteLine("Niet Deelbaar");
+}
