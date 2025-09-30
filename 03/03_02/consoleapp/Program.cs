@@ -1,2 +1,39 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int jaartal;
+string jaaralsString;
+
+System.Console.WriteLine("geef een jaartal in: ");
+jaaralsString = Console.ReadLine();
+jaartal = int.Parse(jaaralsString);
+
+if (jaartal >= 1582)
+{
+    if ((jaartal % 4000) == 0)
+    {
+        System.Console.WriteLine("Geen schrikkeljaar");
+    }
+    else if ((jaartal % 400) == 0)
+    {
+        System.Console.WriteLine("Wel schrikkeljaar");
+    }
+    else if ((jaartal % 100) == 0)
+    {
+        System.Console.WriteLine("Wel schrikkeljaar");
+    }
+    else if ((jaartal % 4) == 0)
+    {
+        System.Console.WriteLine("Wel schrikkeljaar");
+    }
+
+}
+else
+{
+    if ((jaartal % 4) == 0)
+    {
+        System.Console.WriteLine("Wel schrikkeljaar");
+    }
+    else
+    {
+                System.Console.WriteLine("Niet schrikkeljaar");
+
+    }
+}
