@@ -15,25 +15,25 @@ cijfer = int.Parse(cijferAlsString);
 switch (cijfer)
 {
     case 1:
-        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: Anna");
+        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: \"Anna\"");
         break;
     case 2:
-        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: Knippie");
+        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: \"Knippie\"");
         break;
     case 3:
-        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: VtWonen");
+        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: \"VtWonen\"");
         break;
     case 4:
-        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: Voetbal International");
+        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: \"Voetbal International\"");
         break;
     case 5:
-        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: Wandelen & fietsen");
+        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: \"Wandelen & fietsen\"");
         break;
     case 6:
-        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: Zoom NL");
+        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: \"Zoom NL\"");
         break;
     case 7:
-        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: Runners");
+        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: \"Runners\"");
         break;
     default:
         System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: -") ;
