@@ -36,7 +36,7 @@ switch (cijfer)
         System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: Runners");
         break;
     default:
-
+        System.Console.WriteLine($"{voornaam.ToLower()} {naam.ToUpper()}, tijdschrift: -") ;
         break;
 
 }
