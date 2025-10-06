@@ -10,19 +10,19 @@ if (jaartal >= 1582)
 {
     if ((jaartal % 4000) == 0)
     {
-        System.Console.WriteLine("Geen schrikkeljaar");
+        System.Console.WriteLine($"{jaartal} is geen schrikkeljaar");
     }
     else if ((jaartal % 400) == 0)
     {
-        System.Console.WriteLine("Wel schrikkeljaar");
+        System.Console.WriteLine($"{jaartal} is wel schrikkeljaar");
     }
     else if ((jaartal % 100) == 0)
     {
-        System.Console.WriteLine("Wel schrikkeljaar");
+        System.Console.WriteLine($"{jaartal} is wel schrikkeljaar");
     }
     else if ((jaartal % 4) == 0)
     {
-        System.Console.WriteLine("Wel schrikkeljaar");
+        System.Console.WriteLine($"{jaartal} is wel schrikkeljaar");
     }
 
 }
