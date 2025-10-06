@@ -1,5 +1,4 @@
-﻿//version 2
-int jaartal;
+﻿int jaartal;
 string jaaralsString;
 
 System.Console.WriteLine("geef een jaartal in: ");
@@ -18,13 +17,16 @@ if (jaartal >= 1582)
     }
     else if ((jaartal % 100) == 0)
     {
-        System.Console.WriteLine($"{jaartal} is een schrikkeljaar");
+        System.Console.WriteLine($"{jaartal} is geen schrikkeljaar");  // ✅ FIXED: Changed to "geen"
     }
     else if ((jaartal % 4) == 0)
     {
         System.Console.WriteLine($"{jaartal} is een schrikkeljaar");
     }
-
+    else  // ✅ ADDED: Catch all other years >= 1582
+    {
+        System.Console.WriteLine($"{jaartal} is geen schrikkeljaar");
+    }
 }
 else
 {
@@ -34,7 +36,6 @@ else
     }
     else
     {
-                System.Console.WriteLine($"{jaartal} is geen schrikkeljaar");
-
+        System.Console.WriteLine($"{jaartal} is geen schrikkeljaar");
     }
 }
