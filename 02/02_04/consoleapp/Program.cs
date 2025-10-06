@@ -10,5 +10,5 @@ if ((getal % 5 == 0) && (getal % 11 == 0))
 }
 else
 { 
-    Console.WriteLine("Niet Deelbaar");
+    Console.WriteLine("Niet deelbaar");
 }
