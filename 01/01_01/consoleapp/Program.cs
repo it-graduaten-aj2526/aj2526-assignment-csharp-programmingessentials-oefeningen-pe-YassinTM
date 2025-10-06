@@ -16,4 +16,4 @@ getal4 = int.Parse(Console.ReadLine());
 optelling = getal1 + getal3;
 vermenigvuldiging = getal2 * getal4;
 
-Console.Write($"Optelling : {optelling} \nVermenigvuldiging : {vermenigvuldiging}");
+Console.Write($"Optelling: {optelling} \nVermenigvuldiging: {vermenigvuldiging}");
