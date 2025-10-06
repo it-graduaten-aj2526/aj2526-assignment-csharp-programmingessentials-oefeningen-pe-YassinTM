@@ -1,4 +1,4 @@
-﻿//version 1
+﻿//version 2
 string letter;
 System.Console.WriteLine("Geef een letter: ");
 letter = Console.ReadLine().ToLower();

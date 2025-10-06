@@ -1,4 +1,4 @@
-﻿//version 1
+﻿//version 2
 int vastBedrag = 23, nationaal, internationaal;
 double oproepkosten = 0.12;
 double percentage = 1.21;

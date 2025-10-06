@@ -1,4 +1,4 @@
-﻿//version 1
+﻿//version 2
 //Declaratie van var
 using System.Security.Cryptography.X509Certificates;
 

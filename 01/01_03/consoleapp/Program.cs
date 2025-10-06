@@ -1,4 +1,4 @@
-﻿//version 1
+﻿//version 2
 int volwassenen, kinderen;
 
 Console.Write("Hoeveel Volwassenen? : ");

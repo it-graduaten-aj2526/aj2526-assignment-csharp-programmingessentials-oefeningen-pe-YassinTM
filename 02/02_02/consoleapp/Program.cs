@@ -1,4 +1,4 @@
-﻿//version 1
+﻿//version 2
 int getal1, getal2;
 
 Console.WriteLine("Geef getal 1: ");

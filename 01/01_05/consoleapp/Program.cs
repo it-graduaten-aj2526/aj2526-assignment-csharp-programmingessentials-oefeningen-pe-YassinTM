@@ -1,4 +1,4 @@
-﻿//version 1
+﻿//version 2
 int celcius, fahrenheit;
 
 Console.Write("Geef een temperatuur in Celcius: ");

@@ -1,4 +1,4 @@
-﻿//version 1
+﻿//version 2
 string voornaam, familienaam, leeftijdgroep = "Volwassenen";
 int leeftijd;
 
