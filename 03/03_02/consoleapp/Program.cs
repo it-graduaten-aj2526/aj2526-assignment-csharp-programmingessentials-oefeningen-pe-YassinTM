@@ -23,7 +23,7 @@ if (jaartal >= 1582)
     {
         System.Console.WriteLine($"{jaartal} is een schrikkeljaar");
     }
-    else  // ✅ ADDED: Catch all other years >= 1582
+    else  
     {
         System.Console.WriteLine($"{jaartal} is geen schrikkeljaar");
     }
