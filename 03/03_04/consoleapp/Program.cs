@@ -1,4 +1,5 @@
-﻿string naam, voornaam, cijferAlsString;
+﻿//version 1
+string naam, voornaam, cijferAlsString;
 int cijfer;
 
 System.Console.WriteLine("Wat is jou voornaam?: ");

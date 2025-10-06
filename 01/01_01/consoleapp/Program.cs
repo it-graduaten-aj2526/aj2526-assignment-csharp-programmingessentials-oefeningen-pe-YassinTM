@@ -1,4 +1,5 @@
-﻿int getal1, getal2, getal3, getal4, optelling, vermenigvuldiging;
+﻿//version 1
+int getal1, getal2, getal3, getal4, optelling, vermenigvuldiging;
 
 Console.Write("Geef getal 1 in: ");
 getal1 = int.Parse(Console.ReadLine());

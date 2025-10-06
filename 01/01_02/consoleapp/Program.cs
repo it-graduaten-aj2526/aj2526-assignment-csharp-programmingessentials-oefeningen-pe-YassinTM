@@ -1,4 +1,5 @@
-﻿float prijsminbtw;
+﻿//version 1
+float prijsminbtw;
 int percentage;
 
 Console.Write("Geef de prijs exclusief btw: ");

@@ -1,4 +1,5 @@
-﻿int getal1, getal2;
+﻿//version 1
+int getal1, getal2;
 
 Console.WriteLine("Geef getal 1: ");
 getal1 = int.Parse(Console.ReadLine());

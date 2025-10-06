@@ -1,4 +1,5 @@
-﻿string voornaam, familienaam, leeftijdgroep = "Volwassenen";
+﻿//version 1
+string voornaam, familienaam, leeftijdgroep = "Volwassenen";
 int leeftijd;
 
 Console.Write("Geef je voornaam: ");

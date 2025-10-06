@@ -1,4 +1,5 @@
-﻿int getal1, getal2, getal3, cijfercode;
+﻿//version 1
+int getal1, getal2, getal3, cijfercode;
 string lettercode, getalAlsString;
 
 System.Console.WriteLine("Geef een getal: ");

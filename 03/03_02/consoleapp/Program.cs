@@ -1,4 +1,5 @@
-﻿int jaartal;
+﻿//version 1
+int jaartal;
 string jaaralsString;
 
 System.Console.WriteLine("geef een jaartal in: ");

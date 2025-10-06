@@ -1,4 +1,5 @@
-﻿int landingsplaats;
+﻿//version 1
+int landingsplaats;
 Console.Write("Landingsplaats? : ");
 landingsplaats = int.Parse(Console.ReadLine());
 

@@ -1,4 +1,5 @@
-﻿int volwassenen, kinderen;
+﻿//version 1
+int volwassenen, kinderen;
 
 Console.Write("Hoeveel Volwassenen? : ");
 volwassenen = int.Parse(Console.ReadLine());

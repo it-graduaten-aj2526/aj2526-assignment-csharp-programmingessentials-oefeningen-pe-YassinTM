@@ -1,4 +1,5 @@
-﻿int getal;
+﻿//version 1
+int getal;
 
 Console.Write("Geef een getal: ");
 getal = int.Parse(Console.ReadLine());

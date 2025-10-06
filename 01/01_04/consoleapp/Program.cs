@@ -1,4 +1,5 @@
-﻿int vastBedrag = 23, nationaal, internationaal;
+﻿//version 1
+int vastBedrag = 23, nationaal, internationaal;
 double oproepkosten = 0.12;
 double percentage = 1.21;
 Console.Write("Hoeveel nationale oproepen? :");

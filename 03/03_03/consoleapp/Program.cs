@@ -1,4 +1,5 @@
-﻿int getal1, getal2, getal3;
+﻿//version 1
+int getal1, getal2, getal3;
 string code, getalAlsString;
 
 System.Console.WriteLine("Geef getal 1 in");
