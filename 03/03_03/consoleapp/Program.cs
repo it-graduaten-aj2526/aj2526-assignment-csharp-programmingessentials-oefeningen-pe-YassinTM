@@ -1,5 +1,4 @@
-﻿//version 2
-int getal1, getal2, getal3;
+﻿int getal1, getal2, getal3;
 string code, getalAlsString;
 
 System.Console.WriteLine("Geef getal 1 in");
@@ -29,17 +28,17 @@ switch (code)
         System.Console.WriteLine($"Uitkomst: {getal3 - getal2}");
         break;
     case "D":
-
         if (getal1 > 0)
         {
-            Console.WriteLine($"Uitkomst: {Math.Sqrt(getal1)}");
+            Console.WriteLine($"Uitkomst: {(int)Math.Sqrt(getal1)}");
         }
         else
         {
-            Console.WriteLine("Foutieve invoer");
+            Console.WriteLine("Foutieve invoer.");
         }
-
         break;
     default:
+        int grootste = Math.Max(getal1, Math.Max(getal2, getal3));
+        Console.WriteLine($"Uitkomst: {grootste}");
         break;
 }
