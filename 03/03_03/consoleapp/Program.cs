@@ -32,7 +32,7 @@ switch (code)
 
         if (getal1 > 0)
         {
-            Console.WriteLine(Math.Sqrt(getal1));
+            Console.WriteLine($"Uitkomst: {Math.Sqrt(getal1)}");
         }
         else
         {
