@@ -30,11 +30,11 @@ else
 {
     if ((jaartal % 4) == 0)
     {
-        System.Console.WriteLine("Wel schrikkeljaar");
+        System.Console.WriteLine($"{jaartal} is een schrikkeljaar");
     }
     else
     {
-                System.Console.WriteLine("Niet schrikkeljaar");
+                System.Console.WriteLine($"{jaartal} is geen schrikkeljaar");
 
     }
 }
