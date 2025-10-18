@@ -1,13 +1,15 @@
-﻿int tijd = 0;
-double hoeveelheid;
-
-System.Console.WriteLine("Hoeveel koffie (mg): ");
-hoeveelheid = double.Parse(Console.ReadLine());
-
-while (hoeveelheid > 1)
+﻿double mg, uur = 0;
+bool trueornah;
+do
 {
-    tijd += 5;
-    hoeveelheid = hoeveelheid / 2;
-}
+    System.Console.WriteLine("Hoeveel mg: ");
+    trueornah = double.TryParse(Console.ReadLine(), out mg);
+} while (!trueornah);
 
-System.Console.WriteLine($"Totale tijd: {tijd} uur");
+
+while (mg > 1)
+{
+    mg = mg / 2;
+    uur = uur +5;
+}
+System.Console.WriteLine($"Totale tijd: {uur} uur");
