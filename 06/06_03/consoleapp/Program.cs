@@ -2,9 +2,14 @@
 
 string teamname, sym1, sym2;
 int h, l;
-bool condition;
+bool condition, exit = true;
 
-do
+
+
+
+while (exit)
+{
+    do
 {
     System.Console.WriteLine("team name? min 5 char");
     teamname = Console.ReadLine();
@@ -68,9 +73,12 @@ for (int i = 0; i < h; i++)
 }
 else
 {
-    
+        exit = false;
 }
 
 
 
+
+
+}
 
