@@ -18,13 +18,13 @@ while (exit)
         {
             System.Console.WriteLine("symbol 1?");
             sym1 = Console.ReadLine();
-        } while (sym1.Length > 1);
+        } while (sym1.Length != 1);
 
         do
         {
             System.Console.WriteLine("symbol 2?");
             sym2 = Console.ReadLine();
-        } while (sym2.Length > 1 || sym2 == sym1);
+        } while (sym2.Length != 1 || sym2 == sym1);
 
         do
         {
