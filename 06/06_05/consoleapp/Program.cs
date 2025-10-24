@@ -19,7 +19,7 @@ else
         System.Console.WriteLine("cijfer");
         isscorenum = int.TryParse(Console.ReadLine(), out score);
     } while (!isscorenum);
-    overzicht = overzicht + naam + $"({score})\n";
+    overzicht = overzicht + naam + $"( {score})\n";
     totaalscore = totaalscore + score;
     aantal++;
 
@@ -39,7 +39,7 @@ else
                 System.Console.WriteLine("cijfer");
                 isscorenum = int.TryParse(Console.ReadLine(), out score);
             } while (!isscorenum);
-            overzicht = overzicht + naam + $"({score})\n";
+            overzicht = overzicht + naam + $"( {score})\n";
             totaalscore = totaalscore + score;
                     aantal++;
 
