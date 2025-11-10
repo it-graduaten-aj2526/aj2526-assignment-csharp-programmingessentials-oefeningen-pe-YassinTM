@@ -28,6 +28,7 @@ while (antwoord.ToLower() == "ja")
     } while (antwoord.ToLower() != "ja" && antwoord.ToLower() != "nee");
 
 }
+System.Console.WriteLine("Namen:");
 foreach (string n in namenlijst)
 {
     System.Console.WriteLine(n);
