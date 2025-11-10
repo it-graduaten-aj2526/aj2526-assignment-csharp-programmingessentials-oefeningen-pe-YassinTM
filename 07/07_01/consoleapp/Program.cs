@@ -3,8 +3,8 @@ string inputcijfer;
 List<int> cijferlijst = [];
 
 
-   do
-   {
+do
+{
     System.Console.WriteLine("Geef een cijfer in");
     inputcijfer = Console.ReadLine();
 
@@ -12,13 +12,8 @@ List<int> cijferlijst = [];
     {
         cijferlijst.Add(intcijfer);
     }
-    
-   } while (!string.IsNullOrEmpty(inputcijfer));
 
-
-
-
-
+} while (!string.IsNullOrEmpty(inputcijfer));
 
 foreach (int item in cijferlijst)
 {
