@@ -3,6 +3,7 @@
 //array = vaste waarde, List = length is adjustable
 //list syntax List<int> numberList = [0, 1, 2, 3]; 
 //omdat list dynamically is kan je numberList.Add(waarde) en numberList.Remove(waarde)
+//int[] getallen = new int[5] --> voor set array length
 string antwoord, naam;
 List<string> namenlijst = [];
 do
