@@ -44,3 +44,4 @@ foreach (string item in woordlijst)
 }
 
 System.Console.WriteLine($"Het langste woord is {longword}\nHet kortste woord is {shortword}\nDe som van de posities is {woordlijst.IndexOf(shortword) + woordlijst.IndexOf(longword)}");
+//

@@ -25,3 +25,4 @@ while (true)
 cijferlijst.Sort();
 
 System.Console.WriteLine($"Laagste cijfer: {cijferlijst.First()}\nHoogste cijfer: {cijferlijst.Last()}\nGemiddelde: {cijferlijst.Average()}");
+//

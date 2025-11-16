@@ -25,3 +25,4 @@ while (true)
 
 cijferlijst.Sort();
 System.Console.WriteLine($"Laagste getal: {cijferlijst.First()}\nHoogste getal: {cijferlijst.Last()}");
+//

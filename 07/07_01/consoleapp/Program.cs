@@ -27,3 +27,4 @@ foreach (int item in cijferlijst)
     }
 }
 System.Console.WriteLine($"Aantal positief: {posgetallen}\nNegatieve som: {negsom}");
+//
